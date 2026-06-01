@@ -28,7 +28,7 @@ int main(){
     printf("%d \n",datum1.id);
 
     datum1.rating = 4.5;
-    printf("%.2f",datum1.rating);
+    printf("%.2f",datum1.rating); // %.2f is to just output only 2 numbers after the decimal point that is why things are like that
     return 0;
     
 }
